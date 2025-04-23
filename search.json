@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "posts/2025-04-23-hello.html",
+    "href": "posts/2025-04-23-hello.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Let \\(e^{i\\pi}+1=0\\).\n\nimport numpy as np, matplotlib.pyplot as plt\nx = np.linspace(0, 2*np.pi, 200)\nplt.plot(x, np.sin(x))\n\n\n\n\n\n\n\nFigure 1"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Test",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
