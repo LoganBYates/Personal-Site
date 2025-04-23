@@ -9,6 +9,12 @@ website:
         text: Home
       - about.qmd
 
+profiles:
+  public:
+    website:
+      drafts:
+        - private/**
+
 format:
   html:
     theme:
