@@ -1,0 +1,13 @@
+# Quarto / site build artifacts
+_site/
+docs/
+*.utf8.md
+
+# Conda env
+/env/
+/environment.yml.lock
+
+# Editor cruft
+.DS_Store
+.vscode/
+*.Rproj.user

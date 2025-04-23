@@ -1,0 +1,14 @@
+---
+title: "Hello, Quarto"
+description: "Testing math & code"
+categories: [math, python]
+---
+
+Let $e^{i\pi}+1=0$.
+
+```{python}
+# | label: fig-sin
+import numpy as np, matplotlib.pyplot as plt
+x = np.linspace(0, 2*np.pi, 200)
+plt.plot(x, np.sin(x))
+```
