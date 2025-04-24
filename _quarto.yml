@@ -8,6 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: ./posts/2025-04-23-hello.qmd
+        text: Hello test
 
 profiles:
   public:
