@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "posts/2025-04-23-hello.html",
-    "href": "posts/2025-04-23-hello.html",
-    "title": "Hello, Quarto",
+    "objectID": "private/test_draft.html",
+    "href": "private/test_draft.html",
+    "title": "This is private",
     "section": "",
-    "text": "Let \\(e^{i\\pi}+1=0\\).\n\nimport numpy as np, matplotlib.pyplot as plt\nx = np.linspace(0, 2*np.pi, 200)\nplt.plot(x, np.sin(x))\n\n\n\n\n\n\n\nFigure 1"
+    "text": "No one look"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Test",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "about.html",
@@ -14,10 +21,10 @@
     "text": "About this site"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Test",
+    "objectID": "posts/2025-04-23-hello.html",
+    "href": "posts/2025-04-23-hello.html",
+    "title": "Hello, Quarto",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Let \\(e^{i\\pi}+1=0\\).\n\nimport numpy as np, matplotlib.pyplot as plt\nx = np.linspace(0, 2*np.pi, 200)\nplt.plot(x, np.sin(x))\n\n\n\n\n\n\n\nFigure 1"
   }
 ]

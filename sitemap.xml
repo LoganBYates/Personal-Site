@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://LoganBYates.github.io/Personal-Site/posts/2025-04-23-hello.html</loc>
-    <lastmod>2025-04-23T22:24:25.826Z</lastmod>
+    <loc>https://LoganBYates.github.io/Personal-Site/private/test_draft.html</loc>
+    <lastmod>2025-04-24T12:23:20.631Z</lastmod>
+  </url>
+  <url>
+    <loc>https://LoganBYates.github.io/Personal-Site/index.html</loc>
+    <lastmod>2025-04-23T22:24:25.825Z</lastmod>
   </url>
   <url>
     <loc>https://LoganBYates.github.io/Personal-Site/about.html</loc>
     <lastmod>2025-04-23T22:24:25.825Z</lastmod>
   </url>
   <url>
-    <loc>https://LoganBYates.github.io/Personal-Site/index.html</loc>
-    <lastmod>2025-04-23T22:24:25.825Z</lastmod>
+    <loc>https://LoganBYates.github.io/Personal-Site/posts/2025-04-23-hello.html</loc>
+    <lastmod>2025-04-23T22:24:25.826Z</lastmod>
   </url>
 </urlset>
