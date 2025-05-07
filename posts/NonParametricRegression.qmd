@@ -1,0 +1,7 @@
+---
+title: Notes on Nonparametric Regression
+description: A few notes on the nonparametric regression setting with a focus on the differences between the noisy and noiseless cases.
+categories: [math]
+---
+
+Let $x_1, x_2, ...,x_n\in \mathbb R^d$ be a sample of $\mathbb E [Y | X]$ be

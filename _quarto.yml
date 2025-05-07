@@ -10,6 +10,10 @@ website:
       - about.qmd
       - href: ./posts/2025-04-23-hello.qmd
         text: Hello test
+      - text: Posts
+        menu:
+        - href: ./posts/NonParametricRegression.qmd
+          text: Nonparametric Regression Notes
 
 profiles:
   public:
@@ -20,8 +24,8 @@ profiles:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly
+      dark: vapor
     css: styles.css
     toc: true
 

@@ -1,0 +1,42 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Hello, Quarto\"\n",
+        "description: \"Testing math & code\"\n",
+        "categories: [math, python]\n",
+        "---\n",
+        "\n",
+        "\n",
+        "Let $e^{i\\pi}+1=0$.\n"
+      ],
+      "id": "aa897b2d"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-sin\n",
+        "import numpy as np, matplotlib.pyplot as plt\n",
+        "x = np.linspace(0, 2*np.pi, 200)\n",
+        "plt.plot(x, np.sin(x))"
+      ],
+      "id": "fig-sin",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "quarto-env",
+      "language": "python",
+      "display_name": "Quarto (env)",
+      "path": "C:\\Users\\lbeny\\AppData\\Roaming\\jupyter\\kernels\\quarto-env"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
