@@ -7,11 +7,11 @@
     "text": "No one look"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Test",
+    "objectID": "posts/2025-04-23-hello.html",
+    "href": "posts/2025-04-23-hello.html",
+    "title": "Hello, Quarto",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Let \\(e^{i\\pi}+1=0\\).\n\nimport numpy as np, matplotlib.pyplot as plt\nx = np.linspace(0, 2*np.pi, 200)\nplt.plot(x, np.sin(x))\n\n\n\n\n\n\n\nFigure 1"
   },
   {
     "objectID": "about.html",
@@ -21,10 +21,17 @@
     "text": "About this site"
   },
   {
-    "objectID": "posts/2025-04-23-hello.html",
-    "href": "posts/2025-04-23-hello.html",
-    "title": "Hello, Quarto",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Test",
     "section": "",
-    "text": "Let \\(e^{i\\pi}+1=0\\).\n\nimport numpy as np, matplotlib.pyplot as plt\nx = np.linspace(0, 2*np.pi, 200)\nplt.plot(x, np.sin(x))\n\n\n\n\n\n\n\nFigure 1"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "posts/NonParametricRegression.html",
+    "href": "posts/NonParametricRegression.html",
+    "title": "Notes on Nonparametric Regression",
+    "section": "",
+    "text": "Let \\(x_1, x_2, ...,x_n\\in \\mathbb R^d\\) be a sample of \\(\\mathbb E [Y | X]\\) be"
   }
 ]
