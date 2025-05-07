@@ -155,8 +155,18 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction-and-road-map" id="toc-introduction-and-road-map" class="nav-link active" data-scroll-target="#introduction-and-road-map">Introduction and Road Map</a>
+  <ul class="collapse">
+  <li><a href="#fixed-design" id="toc-fixed-design" class="nav-link" data-scroll-target="#fixed-design">Fixed Design</a></li>
+  <li><a href="#random-design" id="toc-random-design" class="nav-link" data-scroll-target="#random-design">Random Design</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -188,9 +198,26 @@ window.Quarto = {
 </header>
 
 
-<p>Let <span class="math inline">\(x_1, x_2, ...,x_n\in \mathbb R^d\)</span> be a sample of <span class="math inline">\(\mathbb E [Y | X]\)</span> be</p>
+<section id="introduction-and-road-map" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-and-road-map">Introduction and Road Map</h2>
+<p>This article focuses on the setting of nonparametric regression. The aim is to state and prove results about estimation of the nonparamteric regression function given both noisy and noiseless data. We will also prove theorems first in the fixed design case and then in the (i.i.d.) random design case, each of which are explained more thoroughly just below.</p>
+<section id="fixed-design" class="level3">
+<h3 class="anchored" data-anchor-id="fixed-design">Fixed Design</h3>
+<p>Let <span class="math inline">\(X_i = i/n\)</span> for <span class="math inline">\(i = 1,...,n\)</span> and suppose that <span class="math display">\[
+Y_i = f(X_i) + \xi_i
+\]</span> where <span class="math inline">\(f\)</span> is a function from <span class="math inline">\([0,1]\)</span> to <span class="math inline">\(\mathbb R\)</span> belonging to a nonparametric function class and where <span class="math inline">\(\xi_1,...,\xi_n\)</span> are i.i.d. and satisfy <span class="math inline">\(\mathbb E \xi_i = 0\)</span>.</p>
+</section>
+<section id="random-design" class="level3">
+<h3 class="anchored" data-anchor-id="random-design">Random Design</h3>
+<p>Given a pair of random variables <span class="math inline">\((X,Y)\)</span>, we will assume that the regression function</p>
+<p><span class="math display">\[\begin{align*}
+    f(X) = \mathbb E[Y|X]
+\end{align*}\]</span></p>
+<p>satisfies <span class="math inline">\(\xi = Y - f(X)\)</span> where <span class="math inline">\(\xi\)</span> is such that <span class="math inline">\(\mathbb E \xi = 0\)</span>. First, let <span class="math inline">\(X_1, X_2, ...,X_n\in \mathbb R^d\)</span> be such that <span class="math inline">\(X_i = i / n\)</span> for <span class="math inline">\(i = 1,...,n\)</span>.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
