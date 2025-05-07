@@ -4,4 +4,24 @@ description: A few notes on the nonparametric regression setting with a focus on
 categories: [math]
 ---
 
-Let $x_1, x_2, ...,x_n\in \mathbb R^d$ be a sample of $\mathbb E [Y | X]$ be
+## Introduction and Road Map 
+
+This article focuses on the setting of nonparametric regression. The aim is to state and prove results about estimation of the nonparamteric regression function given both noisy and noiseless data. We will also prove theorems first in the fixed design case and then in the (i.i.d.) random design case, each of which are explained more thoroughly just below.
+
+### Fixed Design
+
+Let $X_i = i/n$ for $i = 1,...,n$ and suppose that
+$$
+Y_i = f(X_i) + \xi_i
+$$
+ where $f$ is a function from $[0,1]$ to $\mathbb R$ belonging to a nonparametric function class and where $\xi_1,...,\xi_n$ are i.i.d. and satisfy $\mathbb E \xi_i = 0$.
+
+### Random Design
+
+Given a pair of random variables $(X,Y)$, we will assume that the regression function
+
+\begin{align*}
+    f(X) = \mathbb E[Y|X] 
+\end{align*}
+
+satisfies $\xi = Y - f(X)$ where $\xi$ is such that $\mathbb E \xi = 0$. First, let $X_1, X_2, ...,X_n\in \mathbb R^d$ be such that $X_i = i / n$ for $i = 1,...,n$.
