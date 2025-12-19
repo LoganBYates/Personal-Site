@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "private/test_draft.html",
-    "href": "private/test_draft.html",
-    "title": "This is private",
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Logan B. Yates",
     "section": "",
-    "text": "No one look"
-  },
-  {
-    "objectID": "posts/2025-04-23-hello.html",
-    "href": "posts/2025-04-23-hello.html",
-    "title": "Hello, Quarto",
-    "section": "",
-    "text": "Let \\(e^{i\\pi}+1=0\\).\n\nimport numpy as np, matplotlib.pyplot as plt\nx = np.linspace(0, 2*np.pi, 200)\nplt.plot(x, np.sin(x))\n\n\n\n\n\n\n\nFigure 1"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Test",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is the homepage of Logan Yates, current PhD student in statistics at the University of British Columbia."
   },
   {
     "objectID": "posts/NonParametricRegression.html",
@@ -40,5 +19,26 @@
     "title": "Notes on Nonparametric Regression",
     "section": "",
     "text": "This article focuses on the setting of nonparametric regression. The aim is to state and prove results about estimation of the nonparamteric regression function given both noisy and noiseless data. We will also prove theorems first in the fixed design case and then in the (i.i.d.) random design case, each of which are explained more thoroughly just below.\n\n\nLet \\(X_i = i/n\\) for \\(i = 1,...,n\\) and suppose that \\[\nY_i = f(X_i) + \\xi_i\n\\] where \\(f\\) is a function from \\([0,1]\\) to \\(\\mathbb R\\) belonging to a nonparametric function class and where \\(\\xi_1,...,\\xi_n\\) are i.i.d. and satisfy \\(\\mathbb E \\xi_i = 0\\).\n\n\n\nGiven a pair of random variables \\((X,Y)\\), we will assume that the regression function\n\\[\\begin{align*}\n    f(X) = \\mathbb E[Y|X]\n\\end{align*}\\]\nsatisfies \\(\\xi = Y - f(X)\\) where \\(\\xi\\) is such that \\(\\mathbb E \\xi = 0\\). First, let \\(X_1, X_2, ...,X_n\\in \\mathbb R^d\\) be such that \\(X_i = i / n\\) for \\(i = 1,...,n\\)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "posts/2025-04-23-hello.html",
+    "href": "posts/2025-04-23-hello.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Let \\(e^{i\\pi}+1=0\\).\n\nimport numpy as np, matplotlib.pyplot as plt\nx = np.linspace(0, 2*np.pi, 200)\nplt.plot(x, np.sin(x))\n\n\n\n\n\n\n\nFigure 1"
+  },
+  {
+    "objectID": "private/test_draft.html",
+    "href": "private/test_draft.html",
+    "title": "This is private",
+    "section": "",
+    "text": "No one look"
   }
 ]
