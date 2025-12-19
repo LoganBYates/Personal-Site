@@ -1,0 +1,5 @@
+# Python deps for Quarto notebooks/posts
+jupyter>=1.0
+ipykernel>=6.29
+numpy>=1.26
+matplotlib>=3.8
