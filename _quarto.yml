@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  title: "Test"
+  title: "Logan Yates"
   navbar:
     left:
-      - href: index.qmd
+      - href: home.qmd
         text: Home
       - about.qmd
       - href: ./posts/2025-04-23-hello.qmd
